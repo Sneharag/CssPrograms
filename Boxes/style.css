@@ -1,0 +1,17 @@
+
+
+.box{
+    width: 500px;
+    height: 200px;
+    border: 2px #272e30 solid;   
+    color: white;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-success{
+    background-color: green;
+}

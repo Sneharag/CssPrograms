@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.parent1{
+    background-color:black;
+    width:40%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.child{
+    height: 150px;
+    width: 100px;
+}
+.parent1>:nth-child(1){
+    background-color: #4b453ffd;
+}
+.parent1>:nth-child(2){
+    background-color: #275e4d;
+}
+.parent1>:nth-child(3){
+    background-color: #307a42;
+}
+.parent1>:nth-child(4){
+   background-color: #1acc46;
+}
+.parent1>:nth-child(5){
+    background-color: #bbd1c0;
+}
+
+
+
+
+
+
+/* .parent2{
+    background-color:black;
+    width:60%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+    
+.parent2>:nth-child(1){
+    background-color: #f57d27;
+}
+.parent2>:nth-child(2){
+    background-color: #bf4d4d;
+}
+.parent2>:nth-child(3){
+    background-color: #a67497;
+}
+.parent2>:nth-child(4){
+    background-color: #a182ed;
+}
+.parent2>:nth-child(5){
+    background-color: #5230a6;
+}
+.parent2>:nth-child(6){
+    background-color: #6a4db3;
+}
+.parent2>:nth-child(7){
+    background-color: #626166;
+} */
+
+
+/* .parent3>:nth-child(1){
+    background-color: #5bc9c0;
+}
+.parent3>:nth-child(2){
+    background-color: #a4db7f;
+}
+.parent3>:nth-child(2){
+    background-color: #e6a35c;
+}
+.parent3>:nth-child(2){
+    background-color: #9e1665;
+}
+.parent3>:nth-child(2){
+    background-color: #381a2c;
+}
+.parent3>:nth-child(2){
+    background-color: #4ae8c8;
+}
+.parent3>:nth-child(2){
+    background-color: #449c80;
+}
+.parent3>:nth-child(2){
+    background-color: #6a4f9c;
+}
+.parent3>:nth-child(2){
+    background-color: #4e335c;
+} */

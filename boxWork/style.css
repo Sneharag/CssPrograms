@@ -1,0 +1,26 @@
+.border{
+    border: 1px black solid;
+}
+.bg-grey{
+    background-color: gray;
+}
+.box{
+    width: 600px;
+    height: 300px;
+}
+.box1{
+    width: 90px;
+    height: 50px;
+}
+.bg-pink{
+    background-color: #78147d;
+}
+.bg-blue{
+    background-color: #1c2e54;
+}
+.bg-green{
+    background-color: #3beb84;
+}
+.bg-success{
+    background-color: #1a5714;
+}

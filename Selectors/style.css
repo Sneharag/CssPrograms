@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+#main{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#second{
+    color: yellow;
+}
+
+.text-success{
+    color: green;
+}
+
+.text-danger{
+    color: red;
+}
+
+.text-primary{
+    color: blue;
+}
+
