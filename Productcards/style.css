@@ -1,0 +1,44 @@
+
+.card-group{
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.border{
+    border: 1px solid #cbcaff;
+}
+
+.card{
+    width: 29%;
+    min-height: 500px;
+    padding: 10px;
+    background-color: #d8d7ee;
+    border-radius: 10px;
+}
+
+.card-image > img{
+    width: 100%;
+}
+.card-body > p{
+    line-height: 20px;
+    text-align: left;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer > h2{
+    color: #007df9;
+}
+.card-footer > button{
+    color: white;
+    width: 200px;
+    height: 60px;
+    background-color: #007df9;
+    border-radius: 8px;
+}

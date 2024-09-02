@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+body{
+    background-color: rgb(141, 222, 235);
+    
+}
+.main-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(195, 232, 236);
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+
+.image{
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+.profile{
+    display: flex;
+}
+.content h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.content p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.objects p{
+font-weight: 900;
+font-size: 20px;
+}
+.objects{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.objects2{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.objects2 p{
+    font-weight: 900;
+font-size: 18px;
+margin-top: 0;
+}
+.bt1{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+    font-weight: 800;
+}
+.bt2{
+    color: black;
+    background-color: rgb(195, 232, 236);
+    border: 1px solid;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+    font-weight: 800;
+}
+.buttons{
+    margin-top: 30px;
+}
